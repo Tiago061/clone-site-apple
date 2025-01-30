@@ -38,6 +38,7 @@ header{
 main section{
     text-align: center;
     background-color: var(--bg-primary);
+    height: fit-content;
 }
 
 .text-primary{
@@ -142,10 +143,40 @@ button {
     font-weight: bold ;
 }
 
-.container-third button{
+.button-color{
     color: var(--text-shark);
 }
 
+.fourth{
+    background-color: var(--text-light);
+}
 
+.fourth p{
+    color: var(--text-codgray);
+    font-weight:bold;
+}
 
+.container-fourth p{
+    line-height: 1.4rem;
+}
+
+.smart-watch{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: relative;
+    left: 15rem;
+    top: 4rem;
+}
+
+.content{
+    margin: 2rem;
+}
+.content button{
+    margin-top: 3rem;
+}
+
+.available{
+    margin-top: 2rem;
+}
 
