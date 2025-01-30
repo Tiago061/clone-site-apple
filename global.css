@@ -36,11 +36,50 @@ main section{
     text-align: center;
     background-color: var(--bg-primary);
 }
+
 .text-primary{
     color: var(--title-primary-color);
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: bold;
-    line-height: 3rem;
-    margin-bottom: 2rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;    
+    position: relative;
+    bottom: 4rem;
 }
+
+button {
+    background-color: transparent;
+    color: var(--title-primary-color);
+    padding: 15px;
+    border-color: var(--title-primary-color);
+    border-radius: 2rem;
+    width: 9rem;
+    
+}
+.primary-button{
+    position: relative;
+    top: -4rem;
+}
+.secondary h1{
+    color: var(--title-primary-color);    
+    font-size: 4rem;
+    position: relative;
+    top: 44rem;
+}
+
+.text-apple{
+    position: relative;
+    top: 35rem;
+}
+
+.container{
+    margin-top: -37rem;
+
+}
+
+
+
+    
+
+
 
